@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MissionPackageManifest version="2">
+    <Id>{c70825e0-dd5f-4e54-ac35-6656ae4ba87b}</Id>
+    <Name>Agricultural Parcels Mission</Name>
+    <Description>Ag zoning, parcels, hydro, roads, protected lands, WMUs, and hunting zones for Onondaga &amp; St. Lawrence Counties.</Description>
+    <Created>2025-11-05T02:05:59Z</Created>
+    <Creator><Name>Paul Marzocchi Automation</Name></Creator>
+    <Contents>
+        <Content ignore="false" zipEntry="overlays/Ag_Districts_Focus.kml">
+            <Filename>Ag_Districts_Focus.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Ag Districts Focus</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Ag_Zoned_Parcels.kml">
+            <Filename>Ag_Zoned_Parcels.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Ag Zoned Parcels</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Candidate_Parcels.kml">
+            <Filename>Candidate_Parcels.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Candidate Parcels</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Hunting_NorthSouth_Line.kml">
+            <Filename>Hunting_NorthSouth_Line.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Hunting NorthSouth Line</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Hydrography_Lines.kml">
+            <Filename>Hydrography_Lines.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Hydrography Lines</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Protected_Lands.kml">
+            <Filename>Protected_Lands.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Protected Lands</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Roads_Primary.kml">
+            <Filename>Roads_Primary.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Roads Primary</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/School_Districts_Target.kml">
+            <Filename>School_Districts_Target.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>School Districts Target</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Surface_Water.kml">
+            <Filename>Surface_Water.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Surface Water</Name>
+        </Content>
+        <Content ignore="false" zipEntry="overlays/Wildlife_Management_Units.kml">
+            <Filename>Wildlife_Management_Units.kml</Filename>
+            <ContentType>Overlays</ContentType>
+            <Name>Wildlife Management Units</Name>
+        </Content>
+        <Content ignore="false" zipEntry="data/ag_school_parcels.gpkg">
+            <Filename>ag_school_parcels.gpkg</Filename>
+            <ContentType>Data</ContentType>
+            <Name>Ag School Parcels GeoPackage</Name>
+        </Content>
+    </Contents>
+</MissionPackageManifest>

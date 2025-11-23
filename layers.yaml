@@ -1,0 +1,43 @@
+project: "C:/Users/PaulMarzocchi/Vivarium/WinTAK/QField/Ag_School_AgParcels_QField/Ag_School_AgParcels.qgz"
+
+groups:
+  - name: Basemaps
+  - name: Parcels
+  - name: Streets
+  - name: Infrastructure
+  - name: Parcels - Ownership
+
+layers:
+  - name: "OpenTopoMap (XYZ)"
+    type: xyz
+    url: "https://tile.opentopomap.org/{z}/{x}/{y}.png"
+    group: "Basemaps"
+    zmin: 0
+    zmax: 17
+
+  - name: "Streets – Onondaga County (TIGER 2024)"
+    type: vector_file
+    path: "./data/streets/tl_2024_36067_roads/tl_2024_36067_roads.shp"
+    group: "Streets"
+
+  - name: "Streets – St. Lawrence County (TIGER 2024)"
+    type: vector_file
+    path: "./data/streets/tl_2024_36089_roads/tl_2024_36089_roads.shp"
+    group: "Streets"
+
+  - name: "Stormwater Conveyance – Syracuse Urban Area"
+    type: vector_file
+    path: "./data/sewer/syracuse_stormwater_conveyance.geojson"
+    group: "Infrastructure"
+
+  - name: "Ag Zoned Parcels – Onondaga Ownership"
+    type: vector_file
+    path: "./QField/Ag_School_AgParcels_QField/ag_school_parcels.gpkg|layername=Ag_Zoned_Parcels|subset=COUNTY_NAME='Onondaga'"
+    group: "Parcels - Ownership"
+
+  # No parcel files auto-detected under ./data.
+  # Example to add manually:
+  # - name: "Parcels - Onondaga"
+  #   type: vector_file
+  #   path: "./data/onondaga_parcels.gpkg|layername=parcels"
+  #   group: "Parcels"
