@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="NYS_Tax_Parcels_Public" id="NYS_Tax_Parcels_Public">
+	<SimpleField name="COUNTY_NAME" type="string"></SimpleField>
+	<SimpleField name="MUNI_NAME" type="string"></SimpleField>
+	<SimpleField name="SWIS" type="string"></SimpleField>
+	<SimpleField name="PARCEL_ADDR" type="string"></SimpleField>
+	<SimpleField name="PRINT_KEY" type="string"></SimpleField>
+	<SimpleField name="SBL" type="string"></SimpleField>
+	<SimpleField name="CITYTOWN_NAME" type="string"></SimpleField>
+	<SimpleField name="CITYTOWN_SWIS" type="string"></SimpleField>
+	<SimpleField name="LOC_ST_NBR" type="string"></SimpleField>
+	<SimpleField name="LOC_STREET" type="string"></SimpleField>
+	<SimpleField name="LOC_UNIT" type="string"></SimpleField>
+	<SimpleField name="LOC_ZIP" type="string"></SimpleField>
+	<SimpleField name="PROP_CLASS" type="string"></SimpleField>
+	<SimpleField name="ROLL_SECTION" type="string"></SimpleField>
+	<SimpleField name="LAND_AV" type="float"></SimpleField>
+	<SimpleField name="TOTAL_AV" type="float"></SimpleField>
+	<SimpleField name="FULL_MARKET_VAL" type="float"></SimpleField>
+	<SimpleField name="YR_BLT" type="int"></SimpleField>
+	<SimpleField name="FRONT" type="int"></SimpleField>
+	<SimpleField name="DEPTH" type="int"></SimpleField>
+	<SimpleField name="SQ_FT" type="float"></SimpleField>
+	<SimpleField name="ACRES" type="float"></SimpleField>
+	<SimpleField name="SCHOOL_CODE" type="string"></SimpleField>
+	<SimpleField name="SCHOOL_NAME" type="string"></SimpleField>
+	<SimpleField name="SEWER_TYPE" type="string"></SimpleField>
+	<SimpleField name="SEWER_DESC" type="string"></SimpleField>
+	<SimpleField name="WATER_SUPPLY" type="string"></SimpleField>
+	<SimpleField name="WATER_DESC" type="string"></SimpleField>
+	<SimpleField name="UTILITIES" type="string"></SimpleField>
+	<SimpleField name="UTILITIES_DESC" type="string"></SimpleField>
+	<SimpleField name="BLDG_STYLE" type="string"></SimpleField>
+	<SimpleField name="BLDG_STYLE_DESC" type="string"></SimpleField>
+	<SimpleField name="HEAT_TYPE" type="string"></SimpleField>
+	<SimpleField name="HEAT_TYPE_DESC" type="string"></SimpleField>
+	<SimpleField name="FUEL_TYPE" type="string"></SimpleField>
+	<SimpleField name="FUEL_TYPE_DESC" type="string"></SimpleField>
+	<SimpleField name="SQFT_LIVING" type="float"></SimpleField>
+	<SimpleField name="GFA" type="int"></SimpleField>
+	<SimpleField name="NBR_KITCHENS" type="int"></SimpleField>
+	<SimpleField name="NBR_FULL_BATHS" type="int"></SimpleField>
+	<SimpleField name="NBR_BEDROOMS" type="int"></SimpleField>
+	<SimpleField name="USED_AS_CODE" type="string"></SimpleField>
+	<SimpleField name="USED_AS_DESC" type="string"></SimpleField>
+	<SimpleField name="AG_DIST_CODE" type="string"></SimpleField>
+	<SimpleField name="AG_DIST_NAME" type="string"></SimpleField>
+	<SimpleField name="MAIL_ADDR" type="string"></SimpleField>
+	<SimpleField name="PO_BOX" type="string"></SimpleField>
+	<SimpleField name="MAIL_CITY" type="string"></SimpleField>
+	<SimpleField name="MAIL_STATE" type="string"></SimpleField>
+	<SimpleField name="MAIL_ZIP" type="string"></SimpleField>
+	<SimpleField name="ADD_OWNER" type="string"></SimpleField>
+	<SimpleField name="ADD_MAIL_ADDR" type="string"></SimpleField>
+	<SimpleField name="ADD_MAIL_PO_BOX" type="string"></SimpleField>
+	<SimpleField name="ADD_MAIL_CITY" type="string"></SimpleField>
+	<SimpleField name="ADD_MAIL_STATE" type="string"></SimpleField>
+	<SimpleField name="ADD_MAIL_ZIP" type="string"></SimpleField>
+	<SimpleField name="BOOK" type="int"></SimpleField>
+	<SimpleField name="PAGE" type="int"></SimpleField>
+	<SimpleField name="GRID_EAST" type="float"></SimpleField>
+	<SimpleField name="GRID_NORTH" type="float"></SimpleField>
+	<SimpleField name="MUNI_PARCEL_ID" type="string"></SimpleField>
+	<SimpleField name="SWIS_SBL_ID" type="string"></SimpleField>
+	<SimpleField name="SWIS_PRINT_KEY_ID" type="string"></SimpleField>
+	<SimpleField name="ROLL_YR" type="int"></SimpleField>
+	<SimpleField name="SPATIAL_YR" type="int"></SimpleField>
+	<SimpleField name="OWNER_TYPE" type="string"></SimpleField>
+	<SimpleField name="NYS_NAME" type="string"></SimpleField>
+	<SimpleField name="NYS_NAME_SOURCE" type="string"></SimpleField>
+	<SimpleField name="PRIMARY_OWNER" type="string"></SimpleField>
+	<SimpleField name="DUP_GEO" type="string"></SimpleField>
+	<SimpleField name="CALC_ACRES" type="float"></SimpleField>
+	<SimpleField name="Shape_Length" type="float"></SimpleField>
+	<SimpleField name="Shape_Area" type="float"></SimpleField>
+</Schema>
+<Folder><name>NYS_Tax_Parcels_Public</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#NYS_Tax_Parcels_Public">
+		<SimpleData name="COUNTY_NAME">StLawrence</SimpleData>
+		<SimpleData name="MUNI_NAME">Macomb</SimpleData>
+		<SimpleData name="SWIS">405400</SimpleData>
+		<SimpleData name="PARCEL_ADDR">360 South Woods Rd</SimpleData>
+		<SimpleData name="PRINT_KEY">142.002-8-11</SimpleData>
+		<SimpleData name="SBL">14200200080110000000</SimpleData>
+		<SimpleData name="CITYTOWN_NAME">Macomb</SimpleData>
+		<SimpleData name="CITYTOWN_SWIS">405400</SimpleData>
+		<SimpleData name="LOC_ST_NBR">360</SimpleData>
+		<SimpleData name="LOC_STREET">South Woods Rd</SimpleData>
+		<SimpleData name="PROP_CLASS">113</SimpleData>
+		<SimpleData name="ROLL_SECTION">1</SimpleData>
+		<SimpleData name="LAND_AV">22900</SimpleData>
+		<SimpleData name="TOTAL_AV">56300</SimpleData>
+		<SimpleData name="FULL_MARKET_VAL">140750</SimpleData>
+		<SimpleData name="FRONT">0</SimpleData>
+		<SimpleData name="DEPTH">0</SimpleData>
+		<SimpleData name="SQ_FT">0</SimpleData>
+		<SimpleData name="ACRES">74.5</SimpleData>
+		<SimpleData name="SCHOOL_CODE">404001</SimpleData>
+		<SimpleData name="SCHOOL_NAME">Gouverneur</SimpleData>
+		<SimpleData name="SEWER_TYPE">2</SimpleData>
+		<SimpleData name="SEWER_DESC">Private</SimpleData>
+		<SimpleData name="WATER_SUPPLY">2</SimpleData>
+		<SimpleData name="WATER_DESC">Private</SimpleData>
+		<SimpleData name="UTILITIES">3</SimpleData>
+		<SimpleData name="UTILITIES_DESC">Electric</SimpleData>
+		<SimpleData name="AG_DIST_CODE">AG001</SimpleData>
+		<SimpleData name="AG_DIST_NAME">Ag Dist #1</SimpleData>
+		<SimpleData name="MAIL_ADDR">360 South Woods Rd</SimpleData>
+		<SimpleData name="MAIL_CITY">Hammond</SimpleData>
+		<SimpleData name="MAIL_STATE">NY</SimpleData>
+		<SimpleData name="MAIL_ZIP">13646</SimpleData>
+		<SimpleData name="BOOK">2015</SimpleData>
+		<SimpleData name="PAGE">8930</SimpleData>
+		<SimpleData name="GRID_EAST">165411</SimpleData>
+		<SimpleData name="GRID_NORTH">1611218</SimpleData>
+		<SimpleData name="MUNI_PARCEL_ID">40540073345</SimpleData>
+		<SimpleData name="SWIS_SBL_ID">40540014200200080110000000</SimpleData>
+		<SimpleData name="SWIS_PRINT_KEY_ID">405400142.002-8-11</SimpleData>
+		<SimpleData name="ROLL_YR">2024</SimpleData>
+		<SimpleData name="SPATIAL_YR">2024</SimpleData>
+		<SimpleData name="OWNER_TYPE">8</SimpleData>
+		<SimpleData name="PRIMARY_OWNER">Sergel, Polly K</SimpleData>
+		<SimpleData name="CALC_ACRES">74.2209263327784</SimpleData>
+		<SimpleData name="Shape_Length">2235.79248448761</SimpleData>
+		<SimpleData name="Shape_Area">300139.980162826</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-75.6079038728996,44.4140280086441 -75.615002116252,44.4109916852616 -75.6181440698106,44.4144188555277 -75.6160538095816,44.4152472296106 -75.6158835132993,44.4153182099132 -75.6157167156038,44.4153933376162 -75.6155536140073,44.4154725243426 -75.6153943996981,44.4155556772491 -75.6152124989353,44.415650226388 -75.61502641515,44.4157404935019 -75.6148363395625,44.415826384812 -75.6146424747203,44.41590780828 -75.6109805328794,44.4174987048779 -75.6081864932357,44.4143468468723 -75.6079038728996,44.4140280086441</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

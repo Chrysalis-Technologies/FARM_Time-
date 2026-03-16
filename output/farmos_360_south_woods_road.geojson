@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "360 South Woods Rd - Building",
+        "address": "360 South Woods Road, Hammond, NY 13642"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-75.612155, 44.416894],
+            [-75.612356, 44.416716],
+            [-75.61246, 44.416776],
+            [-75.612394, 44.416834],
+            [-75.612325, 44.416794],
+            [-75.612189, 44.416914],
+            [-75.612155, 44.416894]
+          ]
+        ]
+      }
+    }
+  ]
+}

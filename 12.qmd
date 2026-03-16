@@ -1,0 +1,94 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.42.3-Münster">
+  <identifier>NYS_Tax_Parcels_Public</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>NYS 2024 Statewide Parcels for Public Use</title>
+  <abstract>Publication Date: April 2025
+This file contains 2024 parcel data only for NY State Counties which gave ITS NYS Geospatial Services permission to share this data with the public. To date, 36 counties have provided Geospatial Services permission to share their parcel data with the public. Parcel data for counties which do not allow Geospatial Services to redistribute their data must be obtained directly from those counties. Geospatial Services' goal is to eventually include parcel data for all counties in New York State. 
+Parcel geometry was incorporated as received from County Real Property Departments. No attempt was made to edge-match parcels along adjacent counties. Attribute values were populated using 2024 Assessment Roll tabular data. Geospatial Services obtained from the NYS Department of Tax and Finance’s Office of Real Property Tax Services (ORPTS). Tabular assessment data was joined to the county provided parcel geometry using the SWIS &amp; SBL or SWIS &amp; PRINT KEY unique identifier for each parcel. Detailed information about assessment attributes can be found in the ORPTS Assessor’s Manuals available here: https://www.tax.ny.gov/research/property/assess/manuals/assersmanual.htm. New York City parcel data comes from NYC MapPluto(https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page)
+Thanks to the following counties that specifically authorized Geospatial Services to share their GIS tax parcel data with the public:
+Albany,
+Cayuga, 
+Chautauqua, 
+Cortland, 
+Erie, 
+Genesee,
+Greene, 
+Hamilton,
+Lewis,
+Livingston,
+Montgomery,
+NYC- Bronx, 
+NYC- Kings (Brooklyn), 
+NYC- New York (Manhattan), 
+NYC- Queens, 
+NYC- Richmond (Staten Island), 
+Onondaga,
+Oneida,
+Ontario,
+Orange, 
+Oswego,
+Otsego,
+Putnam,
+Rensselaer, 
+Rockland,
+Schuyler,
+St Lawrence,
+Steuben,
+Suffolk,
+Sullivan,
+Tioga,
+Tompkins, 
+Ulster, 
+Warren,
+Wayne,
+and Westchester.
+
+To provide the public access to tax parcel polygons and a select set of assessment roll attributes for multiple counties in a single file.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>tax parcel</keyword>
+    <keyword>cadastral</keyword>
+    <keyword>parcel boundary</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address></address>
+      <city></city>
+      <administrativearea></administrativearea>
+      <postalcode></postalcode>
+      <country></country>
+    </contactAddress>
+    <name>Statewide Parcel Map Program</name>
+    <organization>NYS ITS Geospatial Services</organization>
+    <position></position>
+    <voice>518-242-5029</voice>
+    <fax></fax>
+    <email>nysgis@its.ny.gov</email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <constraints type="Limitations of use">The State of New York, acting through the New York State Office of Information Technology Services, makes no representations or warranties, express or implied, with respect to the use of or reliance on the Data provided. The User accepts the Data provided “as is” with no guarantees that it is error free, complete, accurate, current or fit for any particular purpose and assumes all risks associated with its use. The State disclaims any responsibility or legal liability to Users for damages of any kind, relating to the providing of the Data or the use of it. Users should be aware that temporal changes may have occurred since this Data was created.</constraints>
+  <rights>Contributing counties, NYS Office of Information Technology Services Geospatial Services and NYS Department of Taxation and Finance’s Office of Real Property Tax Services (ORPTS).</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / UTM zone 18N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 78°W and 72°W - onshore and offshore. Canada - Nunavut; Ontario; Quebec. United States (USA) - Connecticut; Delaware; Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont."],BBOX[28.28,-78,84,-72]],ID["EPSG",26918]]</wkt>
+      <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2295</srsid>
+      <srid>26918</srid>
+      <authid>EPSG:26918</authid>
+      <description>NAD83 / UTM zone 18N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:26918" minx="-79.99629899999999338" dimensions="2" maxx="-71.5900089999999949" minz="0" maxz="0" miny="40.4048439999999971" maxy="45.01600200000000029"/>
+  </extent>
+</qgis>

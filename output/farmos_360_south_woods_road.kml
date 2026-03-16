@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>360 South Woods Rd - Building</name>
+    <Placemark>
+      <name>360 South Woods Rd - Building</name>
+      <ExtendedData>
+        <Data name="address">
+          <value>360 South Woods Road, Hammond, NY 13642</value>
+        </Data>
+        <Data name="source">
+          <value>OpenStreetMap way 812685438</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -75.612155,44.416894,0
+              -75.612356,44.416716,0
+              -75.61246,44.416776,0
+              -75.612394,44.416834,0
+              -75.612325,44.416794,0
+              -75.612189,44.416914,0
+              -75.612155,44.416894,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
