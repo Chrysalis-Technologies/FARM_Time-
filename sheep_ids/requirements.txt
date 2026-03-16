@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+pillow
+numpy
+scikit-learn
+sentence-transformers

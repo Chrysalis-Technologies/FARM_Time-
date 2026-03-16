@@ -1,0 +1,28 @@
+name: retrain
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # Mondays 03:00 UTC
+  workflow_dispatch:      # manual trigger
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Train
+        run: python train.py --data data/ --config configs/exp.yaml --out outputs/latest
+      - name: Evaluate
+        run: python eval.py --model outputs/latest/model.pt --metrics outputs/latest/metrics.json --baseline metrics/prod.json
+      - name: Upload artifacts
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-artifacts
+          path: |
+            outputs/latest/

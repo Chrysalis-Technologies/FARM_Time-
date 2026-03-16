@@ -1,0 +1,15 @@
+# Placeholder experiment config; replace with your real settings
+experiment_name: baseline_stub
+seed: 0
+data:
+  train_dir: data/train
+  val_dir: data/val
+model:
+  arch: placeholder
+  num_classes: 2
+train:
+  epochs: 1
+  batch_size: 4
+  lr: 0.001
+eval:
+  metric: accuracy
